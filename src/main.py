@@ -4,7 +4,7 @@ import re
 from urllib.parse import urljoin
 
 from crawlee import Request
-from crawlee.playwright_crawler import PlaywrightCrawler, PlaywrightCrawlingContext
+from crawlee.crawlers import PlaywrightCrawler, PlaywrightCrawlingContext
 
 
 START_URL = "https://www.ulta.com/brand/juvias-place"
