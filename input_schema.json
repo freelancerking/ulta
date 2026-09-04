@@ -1,0 +1,22 @@
+{
+  "title": "Ulta Juvia's Place Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "startUrl": {
+      "title": "Brand URL",
+      "type": "string",
+      "description": "Ulta brand page to scrape.",
+      "default": "https://www.ulta.com/brand/juvias-place",
+      "editor": "textfield"
+    },
+    "maxProducts": {
+      "title": "Maximum products",
+      "type": "integer",
+      "description": "Maximum number of product pages to scrape. Leave empty for all discovered products.",
+      "minimum": 1,
+      "editor": "number"
+    }
+  },
+  "required": ["startUrl"]
+}
